@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>JS first class</title>
+
+</head>
+
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+//object
+var studentinfo={
+ studentname:"Miftahul",
+ student_ID:"MB010143",
+ student_grade:6,
+ student_school_name:"VNSC",
+ student_roll:35
+};
+document.write(studentinfo.studentname);
+document.write(studentinfo.student_ID);
+document.write(studentinfo.student_grade);
+document.write(studentinfo.student_school_name);
+document.write(studentinfo.student_roll);
+
+
+
+const book={
+title:"Harry Potter",
+author:"J.K. Rowling",
+price:"55.00 USD",
+series: 8,
+main_characters: 5,
+genre: "action,adventure,mystery,supernatural,fantasy etc.",
+publisher_company:"Bloomsbury Publishing",
+published_copies:"more than 600 million copies worldwide",
+isAvailable: true
+};
+document.write(book.title);
+document.write(book.author);
+document.write(book.price);
+document.write(book.series);
+document.write(book.main_characters);
+document.write(book.genre);
+document.write(book.publisher_company);
+document.write(book.published_copies);
+document.write(book.isAvailable);
+
+
+//---Finf maximum number---//
+const numbers=[10,30,56,3,57,29,15,99];
+let max=numbers[0];
+for (let i=1;<numbers.length;i++)
+{
+	if(numbers[i]>max)
+	{
+      max=numbers[i];
+	}
+}
+document.write("the maximun number is:", max);
+</script>
+
+</body>
+
+</html>
